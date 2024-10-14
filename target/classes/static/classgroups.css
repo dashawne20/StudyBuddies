@@ -1,0 +1,96 @@
+
+.page{
+    height: fit-content;
+    overflow-x: hidden;
+}
+
+.header{
+    display: flex;
+}
+
+.header h1{
+    position: relative;
+    font-size: 50px;
+    padding: 0px;
+    margin: 10px;
+    left: 2%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header button{
+    text-decoration: none;
+    filter: invert(0.9);
+    border-radius: 10px;
+    padding: 0px 20px;
+    height: 40px;
+    border: none;
+    position: relative;
+    left: 70%;
+    top: 20px;
+    transition: .3s;
+}
+
+.header button:hover{
+    cursor: pointer;
+    filter: invert(0.93);
+    transition: .3s;
+}
+
+.flexboxgroups{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.groups img{
+    height: 140px;
+    width: 140px;
+    padding: 0;
+    border: 1px rgb(182, 178, 178) solid;
+}
+
+.groups{
+    display: flex;
+    border: 3px rgb(221, 221, 221, 0.5) solid;
+    border-radius: 5px;
+    gap: 30px;
+    padding: 20px;
+}
+
+.group-desc{
+    display: flex;
+    flex-direction: column;
+}
+
+.group-desc h1{
+    padding: 0px;
+    margin: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.group-desc p{
+    color: rgb(95, 93, 93);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0px;
+}
+
+.group-desc button{
+    border: 1px rgb(172, 169, 169) solid;
+    border-radius: 10px;
+    padding: 0px;
+    height: 40px;
+    width: 80px;
+    padding: 0px;
+    margin: 0px;
+    transition: .3s;
+}
+
+.group-desc button:hover{
+    cursor: pointer;
+    filter: invert(0.92);
+    transition: .3s;
+}
+
+
