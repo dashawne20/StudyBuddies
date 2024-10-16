@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/CreateAccount.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Study Buddies</h1>
+        <br>
+        <br>
+        <div class="login-box">
+            <br>
+            <h2>Create Your Account</h2>
+            <form onsubmit="return checkPassword()">
+                <div class="textbox">
+                    <input type="text" placeholder="Email" name="Email">
+                </div>
+                <br>
+                <div class="textbox">
+                    <input type="text" placeholder="Username" name="username">
+                </div>
+                <br>
+                <div class="textbox">
+                    <input type="password" id="first_password" placeholder="Password" name="password">
+                </div>
+                <br>
+                <div class="textbox">
+                    <input type="password"  id="second_password" placeholder="Re-Enter Password" name="password">
+                </div>
+                <br>
+                <button type="submit" class="btn">Create Your Account</button>
+            </form>
+
+            <br>
+
+            <p id="error-message" style="color:red; display:none;">Passwords do not match! Please Re-Enter!</p>
+        </div>
+    </div>
+    <script src="static/CreateAccount.js"></script>
+</body>
+</html>
