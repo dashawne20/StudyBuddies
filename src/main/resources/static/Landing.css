@@ -1,0 +1,54 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background-color: rgb(227, 227, 227);
+}
+
+h2 {
+    font-size: 2.5em;
+    color: #333;
+    margin: 0;
+}
+
+p {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    /* justify-content: space-between; */
+
+    background-color: rgb(85, 84, 84);
+    /* background-color: blue; */
+    background-color: #1E50D5;
+
+    padding: 10px;
+}
+
+.navbar a {
+    color: white;
+    padding: 10px 14px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: white;
+    color: black;
+}
+
+.welcome {
+    text-align: center;
+}
+
+
+.start {
+    background-color: #1E50D5;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
